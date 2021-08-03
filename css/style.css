@@ -8,9 +8,14 @@ body{
     max-width: 1600px;
     margin: 0 auto;
     font-size: 15px;
+    color: #999999;
 }
 
 p{
+    font-family: 'Roboto' sans-serif;
+    font-size: 15px;
+    line-height: 24px;
+    color: #999999;
     margin: 0;
     padding: 0;
 }
@@ -119,6 +124,16 @@ p{
     font-weight: bold;
     text-transform: uppercase;
     line-height: 140px;
+    padding: 0;
+}
+
+.strip{
+    background-color: #fff;
+    width: 60px;
+    height: 3px;
+    margin: 0 auto;
+    margin-top: 33px;
+    margin-bottom: 33px;
 }
 
 .welcome__button{
@@ -223,6 +238,9 @@ p{
     align-items: center;
 }
 
+
+/*main__heading
+************/
 .main__heading{
     color: #333333;
     font-family: 'Montserrat', sans-serif;
@@ -248,19 +266,21 @@ p{
 
 .main__heading-strip{
     background-color: #F38181;
-    width: 60px;
-    height: 3px;
-    margin: 0 auto;
-    margin-top: 33px;
-    margin-bottom: 33px;
 }
 
 .main__heading-text{
     font-family: 'Roboto' sans-serif;
-    font-size: 15px;
     color: #999999;
-    line-height: 24px;
 }
+
+.main__amazing-heading{
+    color: #333333;
+    text-transform: uppercase;
+
+}
+
+/*team
+************/
 
 .main__team{
     width: 100%;
@@ -307,6 +327,9 @@ p{
     font-weight: bold;
     padding-top: 5px;
 }
+
+/*numbers
+************/
 
 .main__container_size-p{
     padding: 0;
@@ -361,13 +384,81 @@ p{
     font-size: 72px;
 }
 
+/*amazing
+************/
+
 .main__amazing{
     width: 100%;
     display: flex;
     flex-direction: column;
-    align-items: center;
+    justify-content: center;
 }
 
+.main__amazing-item{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.main__amazing-inner{
+    display: flex;
+    justify-content: space-between;
+    align-items: start;
+}
+
+.main__amazing-strip{
+    width: 100%;
+    height: 1px;
+    background-color: #E5E5E5;
+    margin-top: 45px;
+    margin-bottom: 45px;
+}
+
+.main__amazing-inner-block{
+    display: flex;
+    flex-direction: column;
+}
+
+.main__img-text{
+    display: block;
+    margin-right: 28px;
+}
+
+.main__amazing-heading{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    padding-bottom: 5px;
+}
+
+.main__container_size-w{
+    width: 100%;
+    padding-bottom: 0;
+}
+
+.main__item_unique-fone{
+    width: 100%;
+    height: 840px;
+    padding-top: 85px;
+
+    justify-content: space-between;
+
+    background: url(..//img/Rectangle\ 21.png) no-repeat center;
+    position: relative;
+}
+
+.display{
+    display: block;
+    position: absolute;
+    top: 220px;
+    right: 538px;
+}
+
+.display:last-child{
+    top: 459px;
+    right: 277px;
+}
 
 
 @media(max-width: 1225px){

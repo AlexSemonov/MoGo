@@ -367,7 +367,7 @@ p{
 }
 
 .main__item-inner:hover{
-    transform: translateY(-10px);
+    transform: translateY(10px);
 }
 
 .main__item-text{

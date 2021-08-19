@@ -518,15 +518,52 @@ p{
 
 .main__quote{
     width: 100%;
-    padding-top: 75px;
-    padding-bottom: 75px;
+    padding-top: 70px;
+    padding-bottom: 70px;
+
+    background-color: #F8F8F8;
 }
 
 .main__quote-content{
+    max-width: 1210px;
     margin: 0 auto;
     display: flex;
     
     align-items: center;
+    justify-content: space-between;
+}
+
+.main__quote-text{
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: space-between;
+}
+
+.main__quote-text p{
+    font-family: 'Roboto' sans-serif;
+    font-size: 24px;
+    line-height: 36px;
+    
+}
+
+.main__quote-autor{
+    display: flex;
+    align-items: center;
+    margin-top: 30px;
+}
+
+.strip__quote_position{
+    margin: 0;
+    margin-right: 10px;
+    background-color: #F38181;
+}
+
+.autor{
+    font-family: 'Roboto' sans-serif;
+    font-size: 24px;
+    line-height: 28.8px;
+    color: black;
 }
 
 .main__arrow_content{
@@ -535,6 +572,43 @@ p{
 
 .main__arrow_content:last-child{
     transform: rotateZ(90deg);
+}
+
+
+
+/*OUR TEAM
+************/
+
+.main__team-fone_size-h{
+    height: 470px;
+}
+
+.main_team-inner_position{
+    flex-direction: row;
+    justify-content: center;
+    top: 42%;
+    right: 20%;
+    opacity: 0;
+}
+
+.main_team-item{
+    width: 56px;
+    height: 56px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    background-color: #FCE38A;
+    border: 2px #F38181 solid;
+}
+
+/*OUR WORK
+************/
+
+.maim__our-work{
+    width: 100%;
+    display: flex;
 }
 
 

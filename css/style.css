@@ -611,6 +611,12 @@ p{
     display: flex;
 }
 
+.maim__our-item{
+    display: flex;
+    width: 50%;
+    flex-wrap: wrap;
+}
+
 
 @media(max-width: 1225px){
 

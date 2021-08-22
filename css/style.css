@@ -12,7 +12,7 @@ body{
 }
 
 p{
-    font-family: 'Roboto' sans-serif;
+    font-family: 'Roboto', sans-serif;
     font-size: 15px;
     line-height: 24px;
     color: #999999;
@@ -541,10 +541,19 @@ p{
 }
 
 .main__quote-text p{
-    font-family: 'Roboto' sans-serif;
+    font-family: 'Roboto', sans-serif;
     font-size: 24px;
     line-height: 36px;
     
+}
+
+.main__quote_size-f p{
+    font-size: 15px;
+    line-height: 24px;
+}
+
+.main__clients-photo{
+    margin-right: 30px;
 }
 
 .main__quote-autor{
@@ -553,10 +562,21 @@ p{
     margin-top: 30px;
 }
 
+.main__quote-autor_colum{
+    align-items: start;
+    flex-direction: column;
+    margin: 0;
+}
+
 .strip__quote_position{
     margin: 0;
     margin-right: 10px;
     background-color: #F38181;
+}
+
+.strip__quote_sive-m{
+    margin-top: 10px;
+    margin-bottom: 10px;
 }
 
 .autor{
@@ -616,6 +636,138 @@ p{
     width: 50%;
     flex-wrap: wrap;
 }
+
+.main__our-inner{
+    width: 50%;
+    height: 390px;
+
+    background-color: #95E1D3;
+}
+
+.main__our-inner_size-h{
+    height: 100%;
+}
+
+.main__our-inner_colum{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+}
+
+.main__our-inner_positiom{
+    width: 100%;
+}
+
+.main__our-inner:hover .main__our-inner_hover{
+    transform: translate(-5px, -5px);
+}
+
+.main__our-inner_hover:hover .main__our-inner_img{
+    opacity: 0.7;
+}
+
+.main__our-inner_hover:hover .main__description-foto{
+    opacity: 1;
+}
+
+.main__our-inner_hover{
+    width: 100%;
+    height: 100%;
+
+    background-color: #FCE38A;
+
+    transition: 0.2s linear;
+}
+
+.main__our-inner_img{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+    transition: 0.2s linear;
+}
+
+.main__our-inner_img-1{
+    background: url(../img/Clip.png) no-repeat center; 
+}
+
+.main__our-inner_img-2{
+    background: url(../img/Rectangle\ 17\ copy.png) no-repeat center; 
+}
+
+.main__our-inner_img-3{
+    background: url(../img/Rectangle\ 17\ copy\ 2.png) no-repeat center; 
+}
+
+.main__our-inner_img-4{
+    background: url(../img/Rectangle\ 17\ copy\ 211.png) no-repeat center; 
+}
+
+.main__our-inner_img-5{
+    background: url(../img/Rectangle\ 17\ copy\ 3.png) no-repeat center; 
+}
+
+.main__our-inner_img-6{
+    background: url(../img/Rectangle\ 17\ copy\ 4.png) no-repeat center; 
+}
+
+.main__our-inner_img-7{
+    background: url(../img/Rectangle\ 17\ copy\ 422.png) no-repeat center; 
+}
+
+.main__description-foto{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    opacity: 0;
+}
+
+.maim__photo{
+    margin-bottom: 16px;
+}
+
+.maim__photo-text{
+    font-family: 'Montserrat' sans-serif;
+    color: rgb(255, 255, 255);
+    text-transform: uppercase;
+    font-size: 14px;
+}
+.maim__photo-heading{
+    font-family: 'Roboto' sans-serif;
+    color: rgb(255, 255, 255);
+    font-size: 15px;
+}
+
+
+.main__happy-clients{
+    width: 100%;
+    background: url(../img/Rectangle\ 22.png) no-repeat center;
+}
+
+.main__clients{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.main__clients-inner{
+    width: 50%;
+    display: flex;
+    align-items: start;
+
+    margin-bottom: 65px;
+}
+
+.main__about-clents{
+    display: flex;
+    flex-direction: column;
+
+}
+
+
 
 
 @media(max-width: 1225px){

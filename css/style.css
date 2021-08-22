@@ -757,14 +757,12 @@ p{
     width: 50%;
     display: flex;
     align-items: start;
-
     margin-bottom: 65px;
 }
 
 .main__about-clents{
     display: flex;
     flex-direction: column;
-
 }
 
 

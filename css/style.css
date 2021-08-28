@@ -284,6 +284,7 @@ p{
 .main__team{
     width: 100%;
     display: flex;
+    flex-wrap: wrap;
     justify-content: space-between;
     padding-top: 90px;
 }
@@ -463,6 +464,7 @@ p{
 .main__service{
     width: 100%;
     display: flex;
+    flex-wrap: wrap;
     justify-content: space-between;
     margin-top: 100px;
 }
@@ -539,7 +541,7 @@ p{
     justify-content: space-between;
 }
 
-.main__quote-text p{
+.main__quote-text{
     font-family: 'Roboto', sans-serif;
     font-size: 24px;
     line-height: 36px;
@@ -624,6 +626,10 @@ p{
 
 /*OUR WORK
 ************/
+
+.main__container_no-padding{
+    padding-top: 0;
+}
 
 .maim__our-work{
     width: 100%;
@@ -772,6 +778,7 @@ p{
 .main__stories{
     display: flex;
     justify-content: space-between;
+    flex-wrap: wrap;
 }
 
 .main__stories-item{
@@ -935,6 +942,7 @@ p{
     flex-direction: column;
     justify-content: space-between;
     align-items: start;
+    margin: 0 auto;
 }
 
 .footer__logo{
@@ -1046,6 +1054,7 @@ p{
     flex-direction: column;
     justify-content: space-between;
     height: 350px;
+    margin: 0 auto;
 }
 
 .footer__blogs-item{
@@ -1075,6 +1084,7 @@ p{
     flex-direction: column;
     justify-content: space-between;
     height: 350px;
+    margin: 0 auto;
 }
 
 .footer__instagram-fotos{
@@ -1147,4 +1157,87 @@ p{
         margin: 0 auto;
         padding-top: 20px;
     }
+
+    .main__quote-logo{
+        display: none;
+    }
+}
+
+@media(max-width: 1024px){
+    .main__team{
+        padding-right: 50px;
+        padding-left: 50px;
+    }
+
+    .main__team-fone:last-child{
+        margin: 50px auto 0;
+    }
+
+    .main__amazing{
+        padding-right: 50px;
+        padding-left: 50px;
+    }
+
+    .main__service-img{
+        margin: 0 auto;
+    }
+
+    .main__service-content{
+        margin: 0 auto;
+        margin-top: 20px;
+    }
+
+    .main__quote-content{
+        padding-right: 50px;
+        padding-left: 50px;
+    }
+
+    .main__quote-text{
+        font-size: 20px;
+        line-height: 30px;
+    }
+
+    .main__quote-img_no-border{
+        border: none;
+    }
+
+    .main__img-inner_size-w-h{
+        width: 150px;
+        height: 150px;
+    }
+
+    .main__clients{
+        padding-right: 50px;
+        padding-left: 50px;
+    }
+
+    .main__clients-text{
+        font-size: 15px;
+        line-height: 24px;
+    }
+
+    .main__stories{
+        padding-right: 50px;
+        padding-left: 50px;
+    }
+
+    .main__stories-item:last-child{
+        margin: 0 auto;
+        margin-top: 50px;
+    }
+
+    .display {
+        top: 220px;
+        right: 252px;
+    }
+
+    .display:last-child {
+        top: 459px;
+        right: 24px;
+    }
+
+    .footer__instagram{
+        margin-top: 50px;
+    }
+
 }

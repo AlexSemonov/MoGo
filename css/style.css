@@ -48,7 +48,6 @@ p{
 }
 
 .welcome__nav{
-    max-width: 605px;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -56,7 +55,6 @@ p{
 
 .welcome__nav-list{
     font-family: 'Montserrat', sans-serif;
-    width: 500px;
     display: flex;
     justify-content: space-between;
     list-style-type: none;
@@ -69,12 +67,19 @@ p{
     text-decoration: none;
     font-size: 14px;
     font-weight: 400;
+    padding-right: 20px;
 
     display: inline;
     text-transform: uppercase;
 
     transition: 0.2s linear;
 }
+
+.list-item_no-padding{
+    padding: 0;
+}
+
+
 
 .list-item_activ{
     color: #FCE38A;
@@ -115,15 +120,15 @@ p{
 }
 
 .welcome-header_lil{
-    font-size: 72px;
+    font-size: 50px;
     font-weight: 400;
 }
 
 .welcome-header_big{
-    font-size: 150px;
+    font-size: 100px;
+    line-height: 105px;
     font-weight: bold;
     text-transform: uppercase;
-    line-height: 140px;
     padding: 0;
 }
 
@@ -244,9 +249,9 @@ p{
 .main__heading{
     color: #333333;
     font-family: 'Montserrat', sans-serif;
-
-    max-width: 960px;
     text-align: center;
+    max-width: 960px;
+    padding-right: 50px;
 }
 
 .main__heading-small{
@@ -1238,6 +1243,102 @@ p{
 
     .footer__instagram{
         margin-top: 50px;
+    }
+
+}
+
+
+@media(max-width: 768px){
+
+
+    .main__container{
+        padding-top: 50px;
+    }
+
+    .main__container_size-p{
+        padding: 0;
+    }
+
+    .welcome__header{
+        min-width: 650px;
+    }
+
+    .main__heading{
+        padding-right: 50px;
+        padding-left: 50px;
+    }
+
+    .main__team{
+        padding-top: 50px;
+    }
+
+    .main__team-fone{
+        margin: 0 auto;
+        margin-top: 50px;
+    }
+
+    .main__team-fone:first-child{
+        margin-top: 0;
+    }
+
+    .main__item-text span{
+        font-size: 50px;
+    }
+
+    .main__item-text{
+        font-size: 13px;
+    }
+
+    .display {
+        width: 500px;
+        top: 297px;
+        right: 252px;
+    }
+
+    .display:last-child {
+        width: 400px;
+        top: 526px;
+        right: 60px;
+    }
+
+    .main__service{
+        margin-top: 50px;
+    }
+
+    .main__quote-text{
+        font-size: 13px;
+    }
+
+    .main__quote-img{
+        width: 100px;
+        height: 100px;
+    }
+
+    .main__img-inner_size-w-h{
+        width: 100px;
+        height: 100px;
+    }
+
+    .main__quote-autor{
+        margin-top: 15px;
+    }
+
+    .autor{
+        font-size: 17px;
+    }
+
+    .main__clients-photo{
+        width: 100px;
+        height: 100px;
+    }
+
+    .main__stories-item{
+        margin: 0 auto;
+        margin-top: 50px;
+    }
+
+    .main__stories-item:first-child{
+        margin-top: 0;
     }
 
 }
